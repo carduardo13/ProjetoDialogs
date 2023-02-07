@@ -1,0 +1,11 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" id="dialog" >
+    <Dialog id="dialog1" title="Ola Dialog" >
+    
+        <Input id="text2" value="" placeholder="Informe um valor"/>
+
+        <beginButton>
+            <Button  id="btn1" text="ok" press="onCloseDialog" />
+        </beginButton>
+    </Dialog>
+
+</core:FragmentDefinition>
